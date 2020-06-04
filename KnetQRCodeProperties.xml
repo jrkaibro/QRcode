@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Object id="KnetQRCode">
+    <Group>
+      <Name>General</Name>
+      <Type>Main</Type>
+      <Childs>
+        <Prop>
+          <Id>Width</Id>
+          <Name>Width</Name>
+          <Type>Text</Type>
+          <Default>80</Default>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>Height</Id>
+          <Name>Height</Name>
+          <Type>Text</Type>
+          <Default>74</Default>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>Option</Id>
+          <Name>Option</Name>
+          <Type>Combo</Type>
+          <Default>OnClick</Default>
+          <Metadata />
+          <Values>
+            <Value id="AutoCommit" desc="AutoCommit" />
+            <Value id="OnClick" desc="OnClick" />
+            <Value id="Download" desc="Download" />
+          </Values>
+        </Prop>
+        <Prop>
+          <Id>Render</Id>
+          <Name>Render</Name>
+          <Type>Combo</Type>
+          <Default>table</Default>
+          <Metadata />
+          <Values>
+            <Value id="table" desc="table" />
+            <Value id="canvas" desc="canvas" />
+          </Values>
+        </Prop>
+        <Prop>
+          <Id>Color</Id>
+          <Name>Color</Name>
+          <Type>Text</Type>
+          <Default>#000</Default>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>Procedure</Id>
+          <Name>Procedure</Name>
+          <Type>Text</Type>
+          <Default>agetqrcode</Default>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>Row</Id>
+          <Name>Row</Name>
+          <Type>Text</Type>
+          <Default>0</Default>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>Text</Id>
+          <Name>Text</Name>
+          <Type>Text</Type>
+		      <Default>http://www.genexus.com</Default>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>Message</Id>
+          <Name>Message</Name>
+          <Type>Text</Type>
+          <Default>Send success!</Default>
+          <Metadata />
+        </Prop>
+      </Childs>
+    </Group>
+  </Object>
+</Content>

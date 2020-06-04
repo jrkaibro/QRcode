@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>1.2</Version>
+  <AutoGrowSupported>false</AutoGrowSupported>
+  <IncludeInControlInfo>false</IncludeInControlInfo>
+  <SupportFiles>
+    <Directory>src</Directory>
+  </SupportFiles>
+  <iOS_SupportFiles />
+  <Android_SupportFiles />
+  <BB_SupportFiles />
+  <RuntimeRender>KnetQRCodeRender.js</RuntimeRender>
+  <GxResources>KnetQRCode.xpz</GxResources>
+  <HeightPropertyName>Height</HeightPropertyName>
+  <WidthPropertyName>Width</WidthPropertyName>
+  <ResizeSupported>false</ResizeSupported>
+  <ObjClass>KnetQRCode</ObjClass>
+  <Description>KnetQRCode</Description>
+  <Id>00000000-0000-0000-0000-000000000000</Id>
+  <Name>KnetQRCode</Name>
+  <Platforms />
+  <ShowMethod>show</ShowMethod>
+  <ReferencedFiles>
+    <File>src\jquery.qrcode.js</File>
+    <File>src\qrcode.js</File>
+    <SharedFile>jquery/jquery-1.4.2.min.js</SharedFile>
+  </ReferencedFiles>
+  <iOS_ReferencedFiles />
+  <Android_ReferencedFiles />
+  <BB_ReferencedFiles />
+  <Constructor>
+    <Parameters />
+    <Name>KnetQRCode</Name>
+  </Constructor>
+  <PropertiesDefinition>KnetQRCodeProperties.xml</PropertiesDefinition>
+  <DesignRender>KnetQRCodeRender.xsl</DesignRender>
+  <ToolboxIcon>icon\Knet.ico</ToolboxIcon>
+  <ControlType />
+  <Categories>
+    <Category>Knet App</Category>
+  </Categories>
+  <Events />
+  <Methods />
+  <Actions />
+  <IsPublic>true</IsPublic>
+</ControlDefinition>
